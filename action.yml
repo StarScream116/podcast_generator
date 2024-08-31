@@ -4,6 +4,9 @@ description: "Generates a feed for a podcast from a YAML"
 runs: 
   using: "docker"
   image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: "green"
 inputs:
   email:
     description: The commiter's email address
